@@ -1,0 +1,156 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pomodoro {
+  margin: 0 auto;
+  width: 70vw;
+  background: #b0d9cd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#pomodoro h1 {
+  margin: 0;
+  text-align: center;
+  color: #3f51b5;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#break {
+  background: #afbbe3;
+  padding: 10px;
+  border-radius: 10px;
+  width: 48%;
+}
+
+#break-label {
+  color: #3f51b5;
+}
+
+#break-length {
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#break-decrement {
+  border: 0;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#break-increment {
+  border: 0;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#session {
+  background: #8fc1e2;
+  padding: 10px;
+  border-radius: 10px;
+  width: 48%;
+}
+
+#session-label {
+  color: #3f51b5;
+}
+
+#session-decrement {
+  border: 0;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#session-length {
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#session-increment {
+  border: 0;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#body {
+  background: #f9c48c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#timer-label {
+  color: #3f51b5;
+  margin: 0;
+}
+
+#time-left {
+  font-size: 50px;
+  margin: 0;
+  color: #ff5722;
+}
+
+#footer {
+  background: #efcac4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#start_stop {
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#reset {
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#start_stop:active,
+#reset:active,
+#session-decrement:active,
+#session-increment:active,
+#break-increment:active,
+#break-decrement:active {
+  background: #aaa;
+  color: #fff;
+}
